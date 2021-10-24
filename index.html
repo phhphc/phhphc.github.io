@@ -1,7 +1,16 @@
-<div id="text">hello world !</div>
-<script>
-  const text = document.getElementById('text');
-  setInterval(1000, ()=>{
-    text.style.display = text.style.display=='none'?'block':'none';
-  })
-</script>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="text">hello world !</div>
+    <script>
+        const text = document.getElementById('text');
+        setInterval(()=>{
+            text.style.display=text.style.display=='none'?'block':'none';
+        }, 1000)
+    </script>
+  </body>
+</html>
